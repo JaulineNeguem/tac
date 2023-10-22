@@ -1,7 +1,0 @@
-SELECT ?person ?personLabel 
-WHERE
-{
-# journaliste de sexe feminin
-  ?person wdt:P27 wd:Q31;
-              wdt:P106 wd:Q1930187
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
